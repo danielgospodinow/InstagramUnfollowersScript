@@ -44,8 +44,7 @@ def printUnfollowers():
     followings = getFollowings(api, user_id)
 
     print("Total followers: " + str(len(followers)))
-    print("Total followings: " + str(len(followings)))
-    print()
+    print("Total followings: " + str(len(followings)) + "\n")
 
     totalUnfollowers = 0
 
