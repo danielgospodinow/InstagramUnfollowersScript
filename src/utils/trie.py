@@ -27,7 +27,3 @@ def hasWord(root, word):
     if '$' in currNode:
         return True
     return False
-
-
-#inputWords = ["apple", "applet", "app", "apples", "pedalche"]
-#root = getRootOfTrie(inputWords)
